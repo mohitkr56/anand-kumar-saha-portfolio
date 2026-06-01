@@ -17,7 +17,7 @@ function About() {
       </p>
 
       <p>
-        Today, I am transitioning into Software Development with a focus on
+        Now, I am transitioning into Software Development with a focus on
         Java, Spring Boot, React, SQL, Microservices, DevOps, and Cloud Technologies.
       </p>
 

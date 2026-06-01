@@ -23,18 +23,34 @@ function Hero() {
         </p>
 
         <div className="hero-buttons">
-          <button>Download Resume</button>
-          <button>Let's Connect</button>
+
+         <a
+          href="/Anand_Kumar_Saha_Resume.pdf"
+          download
+        >
+          <button className="resume-btn">
+            Download Resume
+          </button>
+        </a>
+
+          <a href="#contact">
+            <button className="contact-btn">
+              Let's Connect
+            </button>
+          </a>
+
         </div>
 
       </div>
 
       <div className="hero-right">
+
         <img
           src={profile}
           alt="Anand Kumar Saha"
           className="profile-image"
         />
+
       </div>
 
     </section>
