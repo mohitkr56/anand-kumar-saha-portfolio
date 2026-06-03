@@ -729,3 +729,16 @@ body {
 .skill-card:last-child{
   grid-column:2/3;
 }
+
+/* ================= FOOTER ================= */
+.footer{
+  background:#0a0a0a;
+  padding:25px;
+  border-top:1px solid rgba(255,255,255,0.1);
+  text-align:center;
+}
+
+.footer p{
+  margin:5px 0;
+  color:#bdbdbd;
+}
