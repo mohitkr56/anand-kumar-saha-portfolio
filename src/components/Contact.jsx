@@ -70,21 +70,16 @@ function Contact() {
             learn, and grow while building scalable software solutions.
           </p>
 
-        <div className="contact-actions">
+          <div className="contact-actions">
 
-          <a
-        <a
-  href="mailto:anandsaha6088@gmail.com?subject=Contact%20from%20Portfolio%20Website"
-  className="contact-btn-main"
->
-  Send Email
-</a>
-          className="contact-btn-main"
-          >
-        Send Email
-        </a>
+            <a
+              href="mailto:anandsaha6088@gmail.com?subject=Job%20Opportunity"
+              className="contact-btn-main"
+            >
+              Send Email
+            </a>
 
-        </div>
+          </div>
 
         </div>
 
