@@ -6,7 +6,6 @@ function Teaching() {
 
       <div className="teaching-container">
 
-
         <div className="teaching-card">
           <h3>💻 Computer Fundamentals</h3>
           <p>
@@ -24,18 +23,18 @@ function Teaching() {
         </div>
 
         <div className="teaching-card">
-        <h3>📝 Academic & Examination Management</h3>
-        <p>
-          Assisted in examination planning, record management,
-          student coordination and academic administration.
-        </p>
-        </div>
-
-        <div className="teaching-card">
           <h3>🎯 Student Mentorship</h3>
           <p>
             Focused on logical thinking,
             career guidance and practical learning.
+          </p>
+        </div>
+
+        <div className="teaching-card">
+          <h3>📝 Academic & Examination Management</h3>
+          <p>
+            Assisted in examination planning, record management,
+            student coordination and academic administration.
           </p>
         </div>
 
@@ -55,7 +54,7 @@ function Teaching() {
 
         <div className="stat">
           <h3>500+</h3>
-          <p>Students Mentored</p>
+          <p>Students Guided</p>
         </div>
 
       </div>
