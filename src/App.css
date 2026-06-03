@@ -661,5 +661,71 @@ body {
 
 .contact-btn-main:hover{
   transform:translateY(-3px);
-  box-shadow:0 0 15px rgba(0,229,255,0.5);
+  box-shadow:0 0 15px rgba(215, 231, 233, 0.5);
+}
+
+.skill-card:last-child{
+  grid-column: 2 / 3;
+}
+
+/* ================= SKILL STATUS COLORS ================= */
+
+.skill-note{
+  text-align:center;
+  color:#d0d0d0;
+  margin-top:-35px;
+  margin-bottom:40px;
+  font-size:1rem;
+  font-weight:600;
+}
+
+/* COMPLETED */
+
+.skill-card.completed{
+  border:2px solid #22c55e;
+}
+
+.skill-card.completed h3{
+  color:#22c55e;
+}
+
+.skill-card.completed:hover{
+  transform:translateY(-10px);
+  box-shadow:0 0 20px rgba(34,197,94,0.5);
+}
+
+/* ONGOING */
+
+.skill-card.ongoing{
+  border:2px solid #facc15;
+}
+
+.skill-card.ongoing h3{
+  color:#facc15;
+}
+
+.skill-card.ongoing:hover{
+  transform:translateY(-10px);
+  box-shadow:0 0 20px rgba(250,204,21,0.5);
+}
+
+/* NOT STARTED */
+
+.skill-card.not-started{
+  border:2px solid #ef4444;
+}
+
+.skill-card.not-started h3{
+  color:#ef4444;
+}
+
+.skill-card.not-started:hover{
+  transform:translateY(-10px);
+  box-shadow:0 0 20px rgba(255, 13, 13, 0.944);
+}
+
+/* AWS CARD CENTER */
+
+.skill-card:last-child{
+  grid-column:2/3;
 }
