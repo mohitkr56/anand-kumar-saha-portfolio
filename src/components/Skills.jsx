@@ -24,7 +24,7 @@ function Skills() {
 
 <div className="skill-card ongoing">
   <h3>🗄 Database</h3>
-  <p>SQL, MySQL, PL/SQL, Database Design</p>
+  <p>SQL, Oracle, PL/SQL, Database Design</p>
 </div>
 
 <div className="skill-card not-started">
