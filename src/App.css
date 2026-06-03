@@ -628,3 +628,38 @@ body {
   }
 
 }
+
+.contact-item{
+  transition:0.4s;
+}
+
+.contact-item:hover{
+  transform:translateY(-10px);
+  box-shadow:0 0 20px rgba(0,229,255,0.4);
+}
+
+.contact-message{
+  transition:0.4s;
+}
+
+.contact-message:hover{
+  transform:translateY(-10px);
+  box-shadow:0 0 20px rgba(0,229,255,0.4);
+}
+
+.contact-btn-main{
+  display:inline-block;
+  width:fit-content;
+  text-decoration:none;
+  background:#00e5ff;
+  color:black;
+  padding:12px 25px;
+  border-radius:8px;
+  font-weight:700;
+  transition:0.3s;
+}
+
+.contact-btn-main:hover{
+  transform:translateY(-3px);
+  box-shadow:0 0 15px rgba(0,229,255,0.5);
+}
