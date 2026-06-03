@@ -47,7 +47,6 @@ function Skills() {
   <p>Cloud Fundamentals, EC2, S3, Deployment Basics</p>
 </div>
 
-
       </div>
 
     </section>

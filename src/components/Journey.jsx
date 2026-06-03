@@ -23,7 +23,7 @@ function Journey() {
         </div>
 
         <div className="timeline-card">
-          <h3>2025</h3>
+          <h3>2026</h3>
           <p>
             Started Java Full Stack Development Training
           </p>
