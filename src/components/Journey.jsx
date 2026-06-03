@@ -31,6 +31,27 @@ function Journey() {
 
       </div>
 
+      <div className="coding-progress">
+
+        <h3>💻LeetCode Progress</h3>
+
+        <div className="progress-bar">
+          <div
+            className="progress-fill"
+            style={{ width: "20%" }}
+          ></div>
+        </div>
+
+        <div className="progress-stats">
+          <span>20 / 50 Problems Solved</span>
+        </div>
+
+        <p className="coding-desc">
+          LeetCode • Java • Problem Solving • DSA
+        </p>
+
+      </div>
+
     </section>
   );
 }

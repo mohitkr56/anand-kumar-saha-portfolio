@@ -730,6 +730,8 @@ body {
   grid-column:2/3;
 }
 
+
+
 /* ================= FOOTER ================= */
 .footer{
   background:#0a0a0a;
@@ -741,4 +743,58 @@ body {
 .footer p{
   margin:5px 0;
   color:#bdbdbd;
+}
+
+/* ================= CODING JOURNEY ================= */
+
+.coding-progress{
+  margin-top:30px;
+  background:#111;
+  border:1.5px solid #00e5ff;
+  border-radius:15px;
+  padding:15px;
+  text-align:center;
+}
+
+.coding-progress h3{
+  color:#00e5ff;
+  font-size:1.5rem;
+  margin-bottom:25px;
+}
+
+.progress-bar{
+  width:100%;
+  height:18px;
+  background:#1c1c1c;
+  border-radius:50px;
+  overflow:hidden;
+}
+
+.progress-fill{
+  height:100%;
+  width:40%;
+  background:linear-gradient(
+    90deg,
+    #c3ecf6,
+    #c2ebf0,
+    #72e8f8
+  );
+  border-radius:50px;
+}
+
+.progress-stats{
+  margin-top:18px;
+}
+
+.progress-stats span{
+  color:#00e5ff;
+  font-size:1.1rem;
+  font-weight:700;
+}
+
+.coding-desc{
+  margin-top:18px;
+  color:#bdbdbd;
+  font-size:1rem;
+  letter-spacing:1px;
 }
