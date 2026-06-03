@@ -23,7 +23,7 @@ function Skills() {
 </div>
 
 <div className="skill-card ongoing">
-  <h3>🗄 Database</h3>
+  <h3>🛢️ Database</h3>
   <p>SQL, Oracle, PL/SQL, Database Design</p>
 </div>
 
@@ -33,7 +33,7 @@ function Skills() {
 </div>
 
 <div className="skill-card ongoing">
-  <h3>⚛ React</h3>
+  <h3>⚛️ React</h3>
   <p>React JS, Components, Hooks, Routing, State Management</p>
 </div>
 
@@ -43,7 +43,7 @@ function Skills() {
 </div>
 
 <div className="skill-card not-started">
-  <h3>☁ AWS</h3>
+  <h3>☁️ AWS</h3>
   <p>Cloud Fundamentals, EC2, S3, Deployment Basics</p>
 </div>
       </div>
