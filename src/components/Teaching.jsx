@@ -6,13 +6,6 @@ function Teaching() {
 
       <div className="teaching-container">
 
-        <div className="teaching-card">
-          <h3>☕ Java Programming</h3>
-          <p>
-            Teaching Core Java concepts including OOP,
-            Collections, JDBC and problem-solving techniques.
-          </p>
-        </div>
 
         <div className="teaching-card">
           <h3>💻 Computer Fundamentals</h3>
@@ -28,6 +21,14 @@ function Teaching() {
             Introduced students to HTML, CSS and
             basic Web Development concepts.
           </p>
+        </div>
+
+        <div className="teaching-card">
+        <h3>📝 Academic & Examination Management</h3>
+        <p>
+          Assisted in examination planning, record management,
+          student coordination and academic administration.
+        </p>
         </div>
 
         <div className="teaching-card">
