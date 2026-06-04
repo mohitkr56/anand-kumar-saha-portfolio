@@ -172,7 +172,7 @@ body {
 
 /* ================= JOURNEY ================= */
 
-.journey {
+..journey {
   min-height: 100vh;
   padding: 100px 10%;
   background: #0a0a0a;
@@ -210,6 +210,7 @@ body {
 
 .timeline-card:hover {
   transform: translateY(-10px);
+  box-shadow: 0 0 20px rgba(0,229,255,0.4);
 }
 
 .timeline-card h3 {
@@ -222,7 +223,6 @@ body {
   line-height: 1.7;
   color: #d0d0d0;
 }
-
 /* ================= MOBILE ================= */
 
 @media (max-width: 992px) {
@@ -748,18 +748,23 @@ body {
 /* ================= CODING JOURNEY ================= */
 
 .coding-progress{
-  margin-top:30px;
+  width:100%;
+  max-width:1000px;
+
+  margin:30px auto 0;
+
   background:#111;
   border:1.5px solid #00e5ff;
   border-radius:15px;
-  padding:15px;
+  padding:20px;
+
   text-align:center;
 }
 
 .coding-progress h3{
   color:#00e5ff;
   font-size:1.5rem;
-  margin-bottom:25px;
+  margin-bottom:20px;
 }
 
 .progress-bar{
@@ -783,7 +788,7 @@ body {
 }
 
 .progress-stats{
-  margin-top:18px;
+  margin-top:15px;
 }
 
 .progress-stats span{
@@ -793,8 +798,9 @@ body {
 }
 
 .coding-desc{
-  margin-top:18px;
+  margin-top:15px;
   color:#bdbdbd;
   font-size:1rem;
   letter-spacing:1px;
+  text-align:center;
 }
