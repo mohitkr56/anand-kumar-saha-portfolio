@@ -43,7 +43,7 @@ function Journey() {
         </div>
 
         <div className="progress-stats">
-          <span>20 / 50 Problems Solved</span>
+          <span>21 / 50 Problems Solved</span>
         </div>
 
         <p className="coding-desc">
