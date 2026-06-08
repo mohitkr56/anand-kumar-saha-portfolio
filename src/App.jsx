@@ -9,7 +9,7 @@ import Teaching from "./components/Teaching";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Cursor from "./components/Cursor";
+
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
-      <Cursor />
+     
     </>
   );
 }

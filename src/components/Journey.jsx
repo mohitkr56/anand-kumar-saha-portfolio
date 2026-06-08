@@ -1,3 +1,5 @@
+import javaBadge from "../assets/java-badge.png";
+
 function Journey() {
   return (
     <section className="journey" id="journey">
@@ -33,12 +35,32 @@ function Journey() {
 
       <div className="coding-progress">
 
-        <h3>💻HackerRank Progress</h3>
+        <div className="coding-top">
+
+          <div className="coding-left">
+
+            <h3>🏆 HackerRank Progress</h3>
+
+            <p className="milestone">
+              29 More Problems To Reach My Goal 🚀
+            </p>
+
+          </div>
+
+          <div className="coding-badge">
+            <img
+              src={javaBadge}
+              alt="Java Badge"
+              className="java-badge-img"
+            />
+          </div>
+
+        </div>
 
         <div className="progress-bar">
           <div
             className="progress-fill"
-            style={{ width: "20%" }}
+            style={{ width: "42%" }}
           ></div>
         </div>
 
