@@ -33,7 +33,7 @@ function Journey() {
 
       <div className="coding-progress">
 
-        <h3>💻LeetCode Progress</h3>
+        <h3>💻HackerRank Progress</h3>
 
         <div className="progress-bar">
           <div
@@ -47,7 +47,7 @@ function Journey() {
         </div>
 
         <p className="coding-desc">
-          LeetCode • Java • Problem Solving • DSA
+          HackerRank • Java • Problem Solving • DSA
         </p>
 
       </div>
