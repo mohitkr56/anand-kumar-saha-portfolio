@@ -42,7 +42,7 @@ function Journey() {
             <h3>🏆 HackerRank Progress</h3>
 
             <p className="milestone">
-              29 More Problems To Reach My Goal 🚀
+              27 More Problems To Reach My Goal 🚀
             </p>
 
           </div>
@@ -60,12 +60,12 @@ function Journey() {
         <div className="progress-bar">
           <div
             className="progress-fill"
-            style={{ width: "42%" }}
+            style={{ width: "46%" }}
           ></div>
         </div>
 
         <div className="progress-stats">
-          <span>21 / 50 Problems Solved</span>
+          <span>23 / 50 Problems Solved</span>
         </div>
 
         <p className="coding-desc">
