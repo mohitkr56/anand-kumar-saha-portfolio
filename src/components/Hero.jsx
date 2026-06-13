@@ -23,7 +23,7 @@ function Hero() {
         <div className="hero-buttons">
 
          <a
-          href="/Anand_Kumar_Saha_Resume.pdf"
+          href="/Mr.Anand_IT_Resume.pdf"
           download
         >
           <button className="resume-btn">
