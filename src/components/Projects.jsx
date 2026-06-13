@@ -1,91 +1,77 @@
 function Projects() {
-  return (
-    <section className="projects" id="projects">
+return ( <section className="projects" id="projects">
 
-      <h2>Featured Projects</h2>
+  <h2>Things I'm Building</h2>
 
-      <div className="projects-container">
+  <div className="projects-container">
 
-        {/* LoopLabs Project */}
+    <div className="project-card featured">
 
-        <div className="project-card featured">
+      <span className="featured-badge">
+        Featured Project
+      </span>
 
-          <span className="featured-badge">
-            Featured Project
-          </span>
+      <h3>🌐 Personal Portfolio Website</h3>
 
-          <h3>🚀 LoopLabs</h3>
+      <p className="tech-stack">
+        React • Vite • CSS
+      </p>
 
-          <p className="tech-stack">
-            Spring Boot • Spring Security • MySQL • Docker • CI/CD
-          </p>
+      <p>
+        Modern responsive portfolio website showcasing
+my journey, skills, projects, and continuous
+learning in technology.
+      </p>
 
-          <p>
-            Enterprise-grade Role-Based Learning Management System
-            implementing secure authentication, authorization,
-            admin management, Docker deployment and CI automation.
-          </p>
+      <ul>
+        <li>Responsive Design</li>
+        <li>Modern UI/UX</li>
+        <li>React Components</li>
+        <li>Smooth Navigation</li>
+        <li>Resume Download Integration</li>
+        <li>GitHub & Vercel Deployment</li>
+      </ul>
 
-          <ul>
-            <li>Role-Based Access Control (RBAC)</li>
-            <li>Spring Security Authentication</li>
-            <li>Admin Dashboard & User Management</li>
-            <li>Docker & Docker Compose</li>
-            <li>GitHub Actions CI/CD Pipeline</li>
-          </ul>
-
-          <div className="project-links">
-            <a
-              href="https://github.com/mohitkr56/looplabs"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Code
-            </a>
-          </div>
-
-        </div>
-
-        {/* Portfolio Project */}
-
-        <div className="project-card">
-
-          <h3>🌐 Personal Portfolio Website</h3>
-
-          <p className="tech-stack">
-            React • Vite • CSS
-          </p>
-
-          <p>
-            Modern responsive portfolio website showcasing
-            professional journey, technical skills,
-            teaching experience and featured projects.
-          </p>
-
-          <ul>
-            <li>Responsive Design</li>
-            <li>Modern UI/UX</li>
-            <li>React Components</li>
-            <li>Smooth Navigation</li>
-            <li>Resume Download Integration</li>
-          </ul>
-
-          <div className="project-links">
-            <a
-              href="https://github.com/mohitkr56/portfolio-website"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Code
-            </a>
-          </div>
-
-        </div>
-
+      <div className="project-links">
+        <a
+          href="https://github.com/mohitkr56/portfolio-website"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Code
+        </a>
       </div>
 
-    </section>
-  );
+    </div>
+
+    <div className="project-card">
+
+      <h3>🚧 📚 BookNest (In Progress)</h3>
+
+      <p className="tech-stack">
+        Java • Spring Boot • React • SQL
+      </p>
+
+      <p>
+       A platform designed for book lovers to organize their personal library,
+        track reading progress, discover new books, write notes, save favorite quotes, and build a meaningful reading journey.
+      </p>
+
+      <ul>
+        <li>Spring Boot REST APIs</li>
+        <li>Database Integration</li>
+        <li>Authentication & Authorization</li>
+        <li>Microservices Architecture</li>
+        <li>Cloud Deployment</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</section>
+
+);
 }
 
 export default Projects;

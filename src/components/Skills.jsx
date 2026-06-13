@@ -2,7 +2,7 @@ function Skills() {
   return (
     <section className="skills" id="skills">
 
-      <h2>Technical Skills</h2>
+      <h2>Technology Stack</h2>
 
       <p className="skill-note">
   🟢 Completed | 🟡 In Progress | 🔴 Next Learning Goals

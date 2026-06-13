@@ -6,20 +6,18 @@ function Hero() {
 
       <div className="hero-left">
 
-        <h4>WELCOME TO MY PORTFOLIO</h4>
-
+        <h4>WELCOME</h4>
         <h1>
           Anand Kumar <span className="highlight">Saha</span>
         </h1>
 
         <h2>
-          Former Computer Science Teacher
-          <br />
-          Transitioning into Java Full Stack Development
+          Building a Career in the IT Industry
+         
         </h2>
 
         <p>
-          Educator • Mentor • Java Full Stack Developer
+          Problem Solver • Technology Enthusiast • Continuous Learner
         </p>
 
         <div className="hero-buttons">
