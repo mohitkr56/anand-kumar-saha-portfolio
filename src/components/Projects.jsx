@@ -1,77 +1,97 @@
+
 function Projects() {
-return ( <section className="projects" id="projects">
+  return (
+    <section className="projects" id="projects">
 
-  <h2>Things I'm Building</h2>
+      <h2>Things I've Built</h2>
 
-  <div className="projects-container">
+      <div className="projects-container">
 
-    <div className="project-card featured">
+        {/* Employee Payroll Management System */}
 
-      <span className="featured-badge">
-        Featured Project
-      </span>
+        <div className="project-card featured">
 
-      <h3>🌐 Personal Portfolio Website</h3>
+          <span className="featured-badge">
+            Featured Project
+          </span>
 
-      <p className="tech-stack">
-        React • Vite • CSS
-      </p>
+          <h3>💼 Employee Payroll Management System</h3>
 
-      <p>
-        Modern responsive portfolio website showcasing
-my journey, skills, projects, and continuous
-learning in technology.
-      </p>
+          <p className="tech-stack">
+            Core Java • Java Swing • JDBC • Oracle Database
+          </p>
 
-      <ul>
-        <li>Responsive Design</li>
-        <li>Modern UI/UX</li>
-        <li>React Components</li>
-        <li>Smooth Navigation</li>
-        <li>Resume Download Integration</li>
-        <li>GitHub & Vercel Deployment</li>
-      </ul>
+          <p>
+            A desktop-based Employee Payroll Management System
+            designed to manage employee records, automate salary
+            calculations, generate payroll, and maintain payroll
+            history with database integration.
+          </p>
 
-      <div className="project-links">
-        <a
-          href="https://github.com/mohitkr56/portfolio-website"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View Code
-        </a>
+          <ul>
+            <li>Employee Management (Add, Update, Delete & Search)</li>
+            <li>Payroll Generation and Salary Calculation</li>
+            <li>Gross Salary, Deductions & Net Salary</li>
+            <li>Duplicate Payroll Prevention</li>
+            <li>Dashboard with Statistics and Charts</li>
+            <li>Payroll History and Reports</li>
+            <li>CSV Export Functionality</li>
+          </ul>
+
+          <div className="project-links">
+            <a
+              href="https://lnkd.in/d_p8zycz"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Code →
+            </a>
+          </div>
+
+        </div>
+
+
+        {/* Library Management System */}
+
+        <div className="project-card">
+
+          <h3>📚 Library Management System</h3>
+
+          <p className="tech-stack">
+            Core Java • Java Swing • OOP • Collections
+          </p>
+
+          <p>
+            A Library Management System developed using Core Java
+            and Java Swing, applying Object-Oriented Programming
+            concepts and Collections to build an interactive
+            desktop application.
+          </p>
+
+          <ul>
+            <li>Core Java Implementation</li>
+            <li>Object-Oriented Programming Concepts</li>
+            <li>Collections Framework</li>
+            <li>Java Swing GUI Development</li>
+            <li>Interactive Desktop Application</li>
+          </ul>
+
+          <div className="project-links">
+            <a
+              href="https://github.com/mohitkr56/LibraryManagementSystem"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Code →
+            </a>
+          </div>
+
+        </div>
+
       </div>
 
-    </div>
-
-    <div className="project-card">
-
-      <h3>🚧 📚 BookNest (In Progress)</h3>
-
-      <p className="tech-stack">
-        Java • Spring Boot • React • SQL
-      </p>
-
-      <p>
-       A platform designed for book lovers to organize their personal library,
-        track reading progress, discover new books, write notes, save favorite quotes, and build a meaningful reading journey.
-      </p>
-
-      <ul>
-        <li>Spring Boot REST APIs</li>
-        <li>Database Integration</li>
-        <li>Authentication & Authorization</li>
-        <li>Microservices Architecture</li>
-        <li>Cloud Deployment</li>
-      </ul>
-
-    </div>
-
-  </div>
-
-</section>
-
-);
+    </section>
+  );
 }
 
 export default Projects;
